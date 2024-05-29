@@ -4,9 +4,9 @@ import logo from "../../../assets/logo/brand-logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [activeMenu, setActiveMenu] = useState(null);
+  const [isNavbarVisible, setNavbarVisible] = useState(true);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [showNavbar, setShowNavbar] = useState(true);
+  const [activeMenu, setActiveMenu] = useState(null);
 
   const handleMenuEnter = (menuIndex) => {
     setActiveMenu(menuIndex);
@@ -54,14 +54,18 @@ const Navbar = () => {
   ];
 
   useEffect(() => {
-    let prevScrollpos = window.pageYOffset;
+    let prevScrollPos = window.pageYOffset;
+
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      setShowNavbar(prevScrollpos > currentScrollPos);
-      prevScrollpos = currentScrollPos;
+      const isScrollingDown = currentScrollPos > prevScrollPos;
+
+      setNavbarVisible(!isScrollingDown);
+      prevScrollPos = currentScrollPos;
     };
 
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -69,8 +73,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`glass sticky top-0 z-50 shadow-md font-serif ${
-        showNavbar ? "show" : "hide"
+      className={`nav glass sticky top-0 z-50 shadow-md font-serif ${
+        isNavbarVisible ? "show" : "hide"
       }`}
     >
       <div className="px-5 container mx-auto flex justify-between py-4">

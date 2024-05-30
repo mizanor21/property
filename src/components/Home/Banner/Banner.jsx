@@ -6,6 +6,8 @@ const Banner = () => {
       style={{
         backgroundImage:
           "url(https://imtiaz.ae/uploads/property/8/pearl_house_main.png)",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
       }}
     >
       <div className="hero-overlay "></div>

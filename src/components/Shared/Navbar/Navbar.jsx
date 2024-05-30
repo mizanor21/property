@@ -76,7 +76,7 @@ const Navbar = () => {
     <>
       <NavContact></NavContact>
       <div
-        className={`nav glass sticky top-0 z-50 font-serif ${
+        className={`nav bg-white sticky top-0 z-50 font-serif ${
           isNavbarVisible ? "show" : "hide"
         }`}
       >

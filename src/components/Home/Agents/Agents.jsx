@@ -1,8 +1,10 @@
 const Agents = () => {
   return (
-    <div className="container mx-auto w-full hidden md:block my-3 md:my-10">
+    <div className="container mx-auto w-full hidden md:block my-3 md:my-20">
       <div className=" md:max-w-[500px] ml-5">
-        <h2 className="text-4xl text-balance">Meet Our Agents &#8633;</h2>
+        <h2 className="text-3xl text-balance border-l-4 pl-5 border-green-600">
+          Meet Our Agents &#8633;
+        </h2>
         <p className="text-gray-700 my-5">
           Our team has handpicked a selection of Dubai&apos;s best residential
           and commercial real estate properties for you to buy or rent. Start

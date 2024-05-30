@@ -13,49 +13,49 @@ const Agents = () => {
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/mahran.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/khalid-768x960.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/sara-819x1024.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/marc-768x960.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/mahran.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/mahran.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>
         <div className="carousel-item block text-center">
           <img
             src="https://sevenstonesdxb.com/wp-content/uploads/2024/03/mahran.png"
-            className="rounded-box w-[250px] md:w-[300px]"
+            className="rounded-box w-[250px] md:w-[400px]"
           />
           <p>Sorforaz</p>
         </div>

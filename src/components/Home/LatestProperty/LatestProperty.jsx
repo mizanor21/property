@@ -19,7 +19,7 @@ const LatestProperty = () => {
         {houses.map((house, index) => (
           <div
             key={index}
-            className="relative w-full sm:w-[47%] md:w-[30%] bg-opacity-100 shadow-xl hover:animate-pulse"
+            className="relative w-full sm:w-[47%] md:w-[30%] shadow-xl hover:animate-pulse"
           >
             <figure className="w-full">
               <img
@@ -29,7 +29,7 @@ const LatestProperty = () => {
               />
             </figure>
             <div className="absolute bottom-0 left-0 w-full text-white p-4">
-              <h2 className="text-sm font-bold">HOUSE {index + 1}</h2>
+              <h2 className="text-xl font-bold">HOUSE {index + 1} &#8594;</h2>
             </div>
           </div>
         ))}

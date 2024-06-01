@@ -2,10 +2,10 @@
 const Banner = () => {
   return (
     <div
-      className="hero min-h-[700px] relative top-[-50px]"
+      className="hero min-h-[800px] relative top-[-50px]"
       style={{
         backgroundImage:
-          "url(https://imtiaz.ae/uploads/property/8/pearl_house_main.png)",
+          "url(https://sevenstonesdxb.com/wp-content/uploads/2023/02/dubai-neighborhood-business-bay.webp)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
